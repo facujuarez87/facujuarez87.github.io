@@ -95,8 +95,10 @@ body {
 
 /* ===== HEADER ===== */
 header {
+    background: linear-gradient(180deg, #0d1117 0%, #161b22 100%);
     border-bottom: 2px solid #58a6ff;
-    padding-bottom: 1rem;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0 0 12px 12px;
     margin-bottom: 2rem;
 }
 
@@ -124,6 +126,15 @@ h2 {
     border-bottom: 1px solid #30363d;
     padding-bottom: 0.3rem;
     margin-top: 2.5rem;
+}
+section {
+    margin-top: 4rem;
+    padding-top: 1rem;
+    border-top: 1px solid #21262d;
+}
+section:first-of-type {
+    border-top: none;
+    margin-top: 0;
 }
 
 /* ===== SKILLS CATEGORIZADAS ===== */
@@ -278,4 +289,12 @@ footer a:hover {
     .subtitle {
         font-size: 1rem;
     }
+}
+
+.project-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
