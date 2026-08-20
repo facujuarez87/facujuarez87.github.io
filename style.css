@@ -283,6 +283,16 @@ footer a:hover {
 }
 
 /* ===== RESPONSIVE (MÓVIL) ===== */
+@media (max-width: 600px) {
+    .nav-left {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem 0.8rem;
+    }
+    .nav-right {
+        margin-left: auto;
+    }
+}
 @media (max-width: 768px) {
     body {
         padding: 1rem;
