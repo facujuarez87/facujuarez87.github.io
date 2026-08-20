@@ -298,3 +298,19 @@ footer a:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
+
+.cta-button {
+    display: inline-block;
+    background: #58a6ff;
+    color: #0d1117;
+    padding: 0.6rem 1.8rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background 0.2s, transform 0.2s;
+}
+.cta-button:hover {
+    background: #79c0ff;
+    transform: scale(1.05);
+}
